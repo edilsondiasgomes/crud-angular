@@ -21,7 +21,7 @@ export class CoursesService {
         tap(courses => console.log(courses)))
   }
 
-  save(course: Course) {
+  save(course: Partial<Course>) {
     return this.httpClient.post<Course>(this.API, course)
   }
 }
