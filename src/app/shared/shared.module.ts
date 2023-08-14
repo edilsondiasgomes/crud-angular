@@ -4,12 +4,14 @@ import { MatDialogModule } from '@angular/material/dialog';
 import { AppMaterialModule } from './app-material/app-material.module';
 import { ErrorDialogComponent } from './components/error-dialog/error-dialog.component';
 import { CategoryPipe } from './pipes/category.pipe';
+import { ConfirmDialogComponent } from './components/confirm-dialog/confirm-dialog.component';
 
 
 @NgModule({
   declarations: [
     ErrorDialogComponent,
-    CategoryPipe
+    CategoryPipe,
+    ConfirmDialogComponent
   ],
   imports: [
     CommonModule,
